@@ -1,0 +1,42 @@
+// sample config file for HTML tidy
+
+indent: auto
+indent-spaces: 2
+wrap: 80
+coerce-endtags: yes
+vertical-space: no
+wrap-attributes: no
+literal-attributes: no
+markup: yes
+show-warnings: no
+quiet: yes
+quote-ampersand: no
+quote-marks: no
+quote-nbsp: no
+
+
+char-encoding: utf8
+input-encoding: utf8
+newline: LF
+output-bom: no
+output-encoding: utf8
+tidy-mark: no
+
+
+//input-xml: no
+//output-xml: no
+// numeric-entities: yes
+// quote-marks: yes
+// quote-nbsp: yes
+// quote-ampersand: no
+// break-before-br: no
+// uppercase-tags: no
+// uppercase-attributes: no
+// char-encoding: latin1
+// new-inline-tags: cfif, cfelse, math, mroot,
+//   mrow, mi, mn, mo, msqrt, mfrac, msubsup, munderover,
+//   munder, mover, mmultiscripts, msup, msub, mtext,
+//   mprescripts, mtable, mtr, mtd, mth
+// new-blocklevel-tags: cfoutput, cfquery
+// new-empty-tags: cfelse
+//
